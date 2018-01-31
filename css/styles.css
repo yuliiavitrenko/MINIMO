@@ -117,3 +117,10 @@ footer {
 	color: #000;
 }
 
+.cite:hover {
+	color: green;
+}
+
+.comment:hover {
+	color: blue;
+}
