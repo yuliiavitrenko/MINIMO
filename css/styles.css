@@ -1,14 +1,10 @@
+
 body {
 	margin: 0;
-	color: #000;
+	color: #626262;
 	background: #fff;
 	font: 14px/24px Georgia, serif;
 }
-
-/*a {
-	color: #000;
-	text-decoration: none;
-}*/
 
 .logo {
 	text-align: center;
@@ -26,10 +22,12 @@ body {
 }
 
 .category {
-	font: 14px/24px Arial, sans-serif;
+	font: 14px Arial, sans-serif;
 	text-transform: uppercase;
 	color: #b4ad9e;
 	margin-bottom: 29px;
+	display: block;
+	text-decoration: none;
 }
 
 .nav__list {
@@ -62,30 +60,41 @@ body {
 	color: green;
 }
 
-.link {
+.ipsum-dolor {
 	color: red;
 }
 
+.ipsum-dolor:hover {
+	color: blue;
+}
+
+.ipsum-dolor:active {
+	color: #8B008B;
+}
 
 .dot-list, .numeric-list {
 	padding: 0;
 	margin-left: 15px;
 }
 
-.quote {
+blockquote {
 	text-align: center;
-	/*margin: 0;*/
-	width:auto;
-    display:table;
+	width: 900px;
+    display: table;
     margin-left: 10px;
     margin-bottom: 26px;
 }
 
-.comment {
-	font: 14px/24px Arial, sans-serif;
-	text-transform: uppercase;
-	color: #b4ad9e;
+.big-paragraph {
+	width: 910px;
 }
 
+footer {
+	text-align: right;
+}
 
+.cite {
+	text-decoration: none;
+	color: #000;
+}
 
