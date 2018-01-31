@@ -21,6 +21,26 @@ body {
 	margin-bottom: 51px;
 }
 
+h1 {
+	margin: 29px 0 16px 0;
+	font: bold 36px "Times New Roman", serif;
+}
+
+h2 {
+	margin: 20px 0;
+	font: bold 30px Georgia, serif;
+}
+
+h3 {
+	margin: 20px 0;
+	font: bold 24px Georgia, serif;
+}
+
+h4 {
+	margin: 20px 0 10px 0;
+	font: bold 18px Georgia, serif;
+}
+
 .category {
 	font: 14px Arial, sans-serif;
 	text-transform: uppercase;
@@ -81,8 +101,7 @@ blockquote {
 	text-align: center;
 	width: 900px;
     display: table;
-    margin-left: 10px;
-    margin-bottom: 26px;
+    margin: 0 0 0 10px;
 }
 
 .big-paragraph {
