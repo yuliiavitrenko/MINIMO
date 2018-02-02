@@ -8,8 +8,8 @@ body {
 
 .logo {
 	text-align: center;
-	margin-top: 81px;
-	margin-bottom: 61px;
+	padding-top: 81px;
+	padding-bottom: 61px;
 }
 
 .wrapper {
@@ -108,6 +108,7 @@ blockquote {
 	/* text-align: right; */
 	background: #f0f0f0;
 	padding: 30px 0 45px;
+	width: 100%;
 }
 
 .container {
@@ -134,7 +135,7 @@ blockquote {
 .social li a{
 	height: 15px;
 	display: block;
-	background: url('../images/social.png') no-repeat;
+	background: url('../images/twitter.png') no-repeat;
 	text-indent: -9999px;
 	overflow: hidden;
 }
@@ -147,12 +148,12 @@ blockquote {
 }
 
 .social li .facebook {
-	width: 9px;
+	width: 8px;
 }
 
 .social li .twitter {
 	width: 18px;
-	background-position: -26px 0;
+	background-position: -25px 0;
 }
 
 .social li .instagram {
@@ -160,10 +161,17 @@ blockquote {
 	background-position: -61px 0;
 }
 
-.social li .instagram:hover {
-	background-position: 
+.social li .facebook:hover {
+	background-position: 0 -15px;
 }
 
+.social li .twitter:hover {
+	background-position: -25px -15px;
+}
+
+.social li .instagram:hover {
+	background-position: -61px -15px;
+}
 
 .cite {
 	text-decoration: none;
@@ -174,7 +182,18 @@ blockquote {
 	color: green;
 }
 
+.comment {
+	display: inline;
+}
+
 .comment:hover {
 	color: blue;
 }
 
+.content {
+	width: 910px;
+}
+
+.icon-facebook:before {
+  content: "\f09a";
+}
