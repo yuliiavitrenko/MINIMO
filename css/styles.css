@@ -1,3 +1,4 @@
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
 
 body {
 	margin: 0;
@@ -105,15 +106,18 @@ blockquote {
 }
 
 .footer {
-	/* text-align: right; */
 	background: #f0f0f0;
 	padding: 30px 0 45px;
 	width: 100%;
+	margin-top: 70px; 
 }
 
 .container {
 	max-width: 900px;
-	margin: 0 auto;
+	margin: 0;
+	float: right;
+	display: flex;
+	text-align: center;
 }
 
 .container:after {
@@ -123,54 +127,8 @@ blockquote {
 }
 
 .footer-text {
-	float: left;
 	margin: 0 10px 0 0;
-}
-
-.social li {
-	float: left;
-	margin: 0 0 0 20px;
-}
-
-.social li a{
-	height: 15px;
-	display: block;
-	background: url('../images/twitter.png') no-repeat;
-	text-indent: -9999px;
-	overflow: hidden;
-}
-
-.social {
-	float: left;
-	margin: 0;
-	padding: 0;
-	list-style: none;
-}
-
-.social li .facebook {
-	width: 8px;
-}
-
-.social li .twitter {
-	width: 18px;
-	background-position: -25px 0;
-}
-
-.social li .instagram {
-	width: 15px;
-	background-position: -61px 0;
-}
-
-.social li .facebook:hover {
-	background-position: 0 -15px;
-}
-
-.social li .twitter:hover {
-	background-position: -25px -15px;
-}
-
-.social li .instagram:hover {
-	background-position: -61px -15px;
+	display: inline-block;
 }
 
 .cite {
@@ -194,6 +152,21 @@ blockquote {
 	width: 910px;
 }
 
-.icon-facebook:before {
-  content: "\f09a";
+.fa-ul li {
+	margin: 0 0 0 20px;
+}
+
+.fa-li {
+	display: inline-block;
+	position: static;
+	margin: 0;
+}
+
+.fa-ul {
+	display: flex;
+	margin: 0;
+}
+
+.fa:hover {
+	color: red;
 }
