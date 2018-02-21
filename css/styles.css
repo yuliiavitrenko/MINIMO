@@ -1,5 +1,10 @@
 @import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
 
+* {
+	margin: 0;
+	padding: 0;
+}
+
 body {
 	margin: 0;
 	color: #626262;
@@ -47,8 +52,12 @@ h4 {
 	text-transform: uppercase;
 	color: #b4ad9e;
 	margin-bottom: 29px;
-	display: block;
+	display: inline-block;
 	text-decoration: none;
+}
+
+a.category:hover {
+	color: blue;
 }
 
 .nav__list {
@@ -107,14 +116,15 @@ blockquote {
 
 .footer {
 	background: #f0f0f0;
-	padding: 30px 0 45px;
-	width: 100%;
-	margin-top: 70px; 
+	padding: 48px 61px;
+	width: auto;
+	position: relative;
+	bottom: 0;
 }
 
 .container {
-	max-width: 900px;
 	margin: 0;
+
 	float: right;
 	display: flex;
 	text-align: center;
@@ -129,6 +139,10 @@ blockquote {
 .footer-text {
 	margin: 0 10px 0 0;
 	display: inline-block;
+	vertical-align: baseline;
+	position: relative;
+	top: 2px;
+
 }
 
 .cite {
@@ -138,14 +152,6 @@ blockquote {
 
 .cite:hover {
 	color: green;
-}
-
-.comment {
-	display: inline;
-}
-
-.comment:hover {
-	color: blue;
 }
 
 .content {
@@ -160,6 +166,8 @@ blockquote {
 	display: inline-block;
 	position: static;
 	margin: 0;
+	vertical-align: baseline;
+	font-size: 25px;
 }
 
 .fa-ul {
