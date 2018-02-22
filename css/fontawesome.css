@@ -22,11 +22,6 @@
 .fa-ul > li {
   position: relative; }
 
-.fa-li {
-
-  position: absolute;
-  text-align: center;
-  line-height: inherit; }
 
 .fa-lg {
   font-size: 1.33333em;
