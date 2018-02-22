@@ -5,6 +5,12 @@
 	padding: 0;
 }
 
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
 body {
 	margin: 0;
 	color: #626262;
@@ -28,22 +34,22 @@ body {
 }
 
 h1 {
-	margin: 29px 0 16px 0;
+	margin: 0 0 16px 0;
 	font: bold 36px "Times New Roman", serif;
 }
 
 h2 {
-	margin: 20px 0;
+	margin: 0 0 20px 0;
 	font: bold 30px Georgia, serif;
 }
 
 h3 {
-	margin: 20px 0;
+	margin: 0 0 20px 0;
 	font: bold 24px Georgia, serif;
 }
 
 h4 {
-	margin: 20px 0 10px 0;
+	margin: 0 0 10px 0;
 	font: bold 18px Georgia, serif;
 }
 
@@ -60,13 +66,19 @@ a.category:hover {
 	color: blue;
 }
 
+.content p {
+	margin-bottom: 20px;
+}
+
 .nav__list {
 	margin: 0;
 	padding: 0;
 	list-style: none;
 	text-align: center;
-	margin-bottom: 36px;
+}
 
+.nav {
+	margin-bottom: 36px;	
 }
 
 .nav__list li {
@@ -105,13 +117,14 @@ a.category:hover {
 .dot-list, .numeric-list {
 	padding: 0;
 	margin-left: 15px;
+	margin-bottom: 20px;
 }
 
 blockquote {
 	text-align: center;
 	width: 900px;
     display: table;
-    margin: 0 0 0 10px;
+    margin: 0 0 10px 10px;
 }
 
 .footer {
