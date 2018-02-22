@@ -124,22 +124,15 @@ blockquote {
 
 .container {
 	margin: 0;
-
 	float: right;
 	display: flex;
-	text-align: center;
 }
 
-.container:after {
-	content: '';
-	display: block;
-	clear: both;
-}
+
 
 .footer-text {
-	margin: 0 10px 0 0;
+	margin: 0;
 	display: inline-block;
-	vertical-align: baseline;
 	position: relative;
 	top: 2px;
 
@@ -159,18 +152,17 @@ blockquote {
 }
 
 .fa-ul li {
-	margin: 0 0 0 20px;
+	margin: 0 40px 0 0px;
 }
 
 .fa-li {
-	display: inline-block;
-	position: static;
 	margin: 0;
-	vertical-align: baseline;
-	font-size: 25px;
+	font-size: 22px;
+
 }
 
 .fa-ul {
+	position: relative;
 	display: flex;
 	margin: 0;
 }
@@ -178,3 +170,5 @@ blockquote {
 .fa:hover {
 	color: red;
 }
+
+
